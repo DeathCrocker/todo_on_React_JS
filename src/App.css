@@ -45,6 +45,7 @@
   background-color: rgb(64, 170, 212);
   margin-left: 30%;
   margin-right: 30%;
+  min-width: 550px;
   border: 0.4em ridge rgba(29, 84, 129, 0.404);
 }
 .maintodo h1 {

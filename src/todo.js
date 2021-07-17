@@ -119,9 +119,10 @@ export default class Todo extends React.Component {
       },
     ];
     var sectionStyle = {
-      width: "100%",
+      //width: "100%",
       display: "flex",
-      //height: "300vh",
+      minHeight: "1024px",
+      justifyContent: "center",
       backgroundSize: "cover",
       backgroundImage: `url(${backimage})`,
     };
