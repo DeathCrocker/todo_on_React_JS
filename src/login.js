@@ -3,7 +3,7 @@ import "./login.css";
 import "./App.css";
 import backimage from "./Images/image2.jpg";
 
-const url = "https://jsonplaceholder.typicode.com/users";
+const url = "http://localhost:3001/users";
 
 export default class Login extends React.Component {
   constructor(props) {

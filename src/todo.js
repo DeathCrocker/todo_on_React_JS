@@ -56,7 +56,7 @@ export default class Todo extends React.Component {
   componentDidMount = async () => {
     const { useridin } = this.props;
 
-    const url = "https://jsonplaceholder.typicode.com/todos?userId=" + useridin;
+    const url = "http://localhost:3001/todos?userId=" + useridin;
     const todosfrom = await fetch(url);
     let todosAll = await todosfrom.json();
 
